@@ -1,0 +1,3 @@
+/cygdrive/d/C&C++LionProjects/C/Exercises/ex1_training/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/d/C&C++LionProjects/C/Exercises/ex1_training/cmake-build-debug/CMakeFiles/ex1_training.dir
+/cygdrive/d/C&C++LionProjects/C/Exercises/ex1_training/cmake-build-debug/CMakeFiles/edit_cache.dir
