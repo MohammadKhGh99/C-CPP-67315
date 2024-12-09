@@ -1,1 +1,0 @@
-/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/ex1_training.dir/main.c.o  -o ex1_training.exe -Wl,--out-implib,libex1_training.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

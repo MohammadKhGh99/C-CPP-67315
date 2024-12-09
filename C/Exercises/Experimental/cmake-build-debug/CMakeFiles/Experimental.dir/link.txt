@@ -1,1 +1,0 @@
-/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Experimental.dir/main.c.o  -o Experimental.exe -Wl,--out-implib,libExperimental.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
