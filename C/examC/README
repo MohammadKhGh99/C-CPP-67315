@@ -1,0 +1,50 @@
+Name: Mohammad Ghanayem
+ID: 208653220
+CS-USER: mohammadgh
+
+SpreaderDetectorBackend
+-----------------------------
+Please explain how you dealt with the following parts of the exam.
+
+Input processing
+----------------
+First of all, we got both files (people and meetings files) from the command line, and checked if the given arguments
+are good or not, then we check if they exists, and if one of them is not existing
+so we print to the stderr stream an appropriate error message and exit the program with error code "1", then we open the
+ output file and checked the same things for input files, we started with the people file because it is more important
+ than the meetings file, so if it is empty but the meetings contain something the program will exit with an error code
+ and an error message, but if the meetings file is empty and the people file contains something the program will print
+ all the people because no one from them has met any infected person, if both of them are empty we exit the program as a
+  normal situation but the output file will be empty, then we start the reading by reading line by line so we can do
+  whatever we have requested to do with the data from both files, when I got any line I started to get everything before
+   every "space", by this way we can get every data in the line individually, in the meetings file first we have to get
+   the first line as the person that has spread the virus across the other people, then we continue reading with the
+   file as any reading.
+
+
+
+Data storing
+------------
+I used a tree to store the data, by this way in the meetings file if we found a line that has started with another id
+number so we should realize that this will be one of the person's children or grand children, so we must go backward by
+the "family tree" so we can arrive to the wanted person with the founded id number in the line, as I was adding to the
+tree I was adding to an array that I can use in sorting the people by probabilities, before this when I have read the
+people file I stored the people in an array so I can found any person that I could find in the meetings file, when I
+started to read the meetings file I have sorted the people array that I have read from the people file by the id number,
+ so if I want to find any person in the future the finding process will take O(log(n)) time complexity, but if I didn't
+ sort the array the finding process will take O(n) everytime and we will "find" n times, so it will be O(n^2) and this
+ is what we don't want, in the freeing process I go to the grand children that doesn't have any children then I started
+ to free every person name and his children, then free the root of the tree that we have allocate.
+
+
+
+Results sorting
+---------------
+when I have read the meetings file I got an array that have all the people with their probabilities, now I will sort
+them by the probabilities in reverse order, so I will find the maximum probability in the first place in the array, I go
+ over all the array and started to check if the current probability is higher than MEDICAL_SUPERVISION_THRESHOLD so I
+ will print his name with a "Hospitalization Required" message, then I will check if the probability is bigger than
+ REGULAR_QUARANTINE_THRESHOLD so I will print it with "14-days-Quarantine Required" message, then everything that is
+ smaller than these constants I print them with "No serious chance for infection" message, after this loop I go over the
+ people array and in the loop I was marking the people with "printed" mark that told me if the current person has been
+ printed or not, so I can print it after the loop with "No serious chance for infection" message

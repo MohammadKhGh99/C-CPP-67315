@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="examC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examC">
+				<Option output="/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/examC.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 examC"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examC/fast">
+				<Option output="/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/examC.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 examC/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/C&amp;C++LionProjects/C/examC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/d/C&amp;C++LionProjects/C/examC/SpreaderDetectorBackend.c">
+			<Option target="examC"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/C&amp;C++LionProjects/C/examC/SpreaderDetectorParams.h">
+			<Option target="examC"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/C&amp;C++LionProjects/C/examC/main.c">
+			<Option target="examC"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/C&amp;C++LionProjects/C/examC/mosaLab6.c">
+			<Option target="examC"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/C&amp;C++LionProjects/C/examC/square.c">
+			<Option target="examC"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/C&amp;C++LionProjects/C/examC/square.h">
+			<Option target="examC"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/C&amp;C++LionProjects/C/examC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

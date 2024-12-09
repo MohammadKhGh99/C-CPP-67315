@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/C&C++LionProjects/C/examC/main.c
+square.h
+/cygdrive/d/C&C++LionProjects/C/examC/square.h
+
+/cygdrive/d/C&C++LionProjects/C/examC/mosaLab6.c
+
+/cygdrive/d/C&C++LionProjects/C/examC/square.c
+square.h
+/cygdrive/d/C&C++LionProjects/C/examC/square.h
+
+/cygdrive/d/C&C++LionProjects/C/examC/square.h
+
