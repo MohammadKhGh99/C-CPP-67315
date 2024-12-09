@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/C&C++LionProjects/C++/Exercises/ex4/Activation.cpp
+Activation.h
+/cygdrive/d/C&C++LionProjects/C++/Exercises/ex4/Activation.h
+
+/cygdrive/d/C&C++LionProjects/C++/Exercises/ex4/Activation.h
+Matrix.h
+/cygdrive/d/C&C++LionProjects/C++/Exercises/ex4/Matrix.h
+cmath
+-
+
+/cygdrive/d/C&C++LionProjects/C++/Exercises/ex4/Matrix.cpp
+Matrix.h
+/cygdrive/d/C&C++LionProjects/C++/Exercises/ex4/Matrix.h
+
+/cygdrive/d/C&C++LionProjects/C++/Exercises/ex4/Matrix.h
+iostream
+-
+cstring
+-
+
