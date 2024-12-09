@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/C&C++LionProjects/C++/examCPP/PresubmissionTests.cpp
+helpers/Presubmit.hpp
+/cygdrive/d/C&C++LionProjects/C++/examCPP/helpers/Presubmit.hpp
+
+/cygdrive/d/C&C++LionProjects/C++/examCPP/VLVector.hpp
+exception
+-
+iterator
+-
+vector
+-
+
+/cygdrive/d/C&C++LionProjects/C++/examCPP/helpers/Helpers.h
+cstdlib
+-
+cstdio
+-
+cstdint
+-
+cinttypes
+-
+cstring
+-
+
+/cygdrive/d/C&C++LionProjects/C++/examCPP/helpers/Presubmit.hpp
+../VLVector.hpp
+/cygdrive/d/C&C++LionProjects/C++/examCPP/VLVector.hpp
+Helpers.h
+/cygdrive/d/C&C++LionProjects/C++/examCPP/helpers/Helpers.h
+iostream
+-
+vector
+-
+algorithm
+-
+
